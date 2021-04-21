@@ -1,6 +1,8 @@
 # Storefinder   
 A web app using Flask for the API and Vue.js for the frontend to let customers find store locations based on their inputted town, city or postcode.
 
+![storefinder app demo](https://github.com/helenodia/storefinder/blob/main/client/public/images/storefinder-demo.gif)
+
 ## Dependencies
 ### API
 - Python 3.9
@@ -18,6 +20,7 @@ A web app using Flask for the API and Vue.js for the frontend to let customers f
 Download and unzip the main `storefinder` project folder.
 
 Then follow the below instructions to set up the Flask API and Vue app.
+
 ### API
 In your terminal:
 
