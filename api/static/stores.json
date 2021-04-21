@@ -1,0 +1,306 @@
+[
+  {
+    "name": "St_Austell",
+    "postcode": "PL25 3HT"
+  },
+  {
+    "name": "Newquay",
+    "postcode": "TR7 1RN"
+  },
+  {
+    "name": "London",
+    "postcode": "SW2 5RS"
+  },
+  {
+    "name": "Swindon",
+    "postcode": "SN25 4BG"
+  },
+  {
+    "name": "Bristol",
+    "postcode": "BS34 5TL"
+  },
+  {
+    "name": "Carlisle",
+    "postcode": "CA3 0JQ"
+  },
+  {
+    "name": "Newhaven",
+    "postcode": "BN9 0AG"
+  },
+  {
+    "name": "Oxford",
+    "postcode": "OX4 3JP"
+  },
+  {
+    "name": "Cambridge",
+    "postcode": "CB1 3ER"
+  },
+  {
+    "name": "Milton_Keynes",
+    "postcode": "MK1 1QB"
+  },
+  {
+    "name": "Falmouth",
+    "postcode": "TR10 8AB"
+  },
+  {
+    "name": "Penzance",
+    "postcode": "TR18 3DU"
+  },
+  {
+    "name": "Truro",
+    "postcode": "TR1 2TN"
+  },
+  {
+    "name": "Southampton",
+    "postcode": "SO14 7EG"
+  },
+  {
+    "name": "Brighton",
+    "postcode": "BN2 3QA"
+  },
+  {
+    "name": "Dover",
+    "postcode": "CT16 2NL"
+  },
+  {
+    "name": "Norwich",
+    "postcode": "NR4 6DH"
+  },
+  {
+    "name": "Diss",
+    "postcode": "IP22 4AG"
+  },
+  {
+    "name": "Liverpool",
+    "postcode": "L10 0AE"
+  },
+  {
+    "name": "Manchester",
+    "postcode": "M1 1WR"
+  },
+  {
+    "name": "Daventry",
+    "postcode": "NN11 4AB"
+  },
+  {
+    "name": "Banbury",
+    "postcode": "OX16 2GU"
+  },
+  {
+    "name": "Northampton",
+    "postcode": "NN1 3AU"
+  },
+  {
+    "name": "Exeter",
+    "postcode": "EX2 6NF"
+  },
+  {
+    "name": "Stow-on-the-wold",
+    "postcode": "GL54 1BX"
+  },
+  {
+    "name": "Chipping_Norton",
+    "postcode": "OX7 5NA"
+  },
+  {
+    "name": "Gillingham",
+    "postcode": "ME8 7HW"
+  },
+  {
+    "name": "Newton_Abbot",
+    "postcode": "TQ12 3RN"
+  },
+  {
+    "name": "Torquay",
+    "postcode": "TQ2 7AN"
+  },
+  {
+    "name": "Dudley",
+    "postcode": "DY5 3BJ"
+  },
+  {
+    "name": "Portsmouth",
+    "postcode": "PO1 1SL"
+  },
+  {
+    "name": "Glasgow",
+    "postcode": "G51 3HR"
+  },
+  {
+    "name": "Edinburgh",
+    "postcode": "EH15 3AR"
+  },
+  {
+    "name": "Hayle",
+    "postcode": "TR274EP"
+  },
+  {
+    "name": "St_Ives",
+    "postcode": "TR26 2PN"
+  },
+  {
+    "name": "Richmond",
+    "postcode": "TW9 1HY"
+  },
+  {
+    "name": "Bath",
+    "postcode": "BA2 3FX"
+  },
+  {
+    "name": "Teignmouth",
+    "postcode": "TQ14 8HR"
+  },
+  {
+    "name": "Taunton",
+    "postcode": "TA1 4BG"
+  },
+  {
+    "name": "Frome",
+    "postcode": "BA11 2TU"
+  },
+  {
+    "name": "Wells",
+    "postcode": "BA5 2DZ"
+  },
+  {
+    "name": "Glastonbury",
+    "postcode": "BA6 9XE"
+  },
+  {
+    "name": "Bletchley",
+    "postcode": "MK1 1DD"
+  },
+  {
+    "name": "Dundee",
+    "postcode": "DD2 4SR"
+  },
+  {
+    "name": "Cardiff",
+    "postcode": "CF14 3AT"
+  },
+  {
+    "name": "Bognor_Regis",
+    "postcode": "PO22 9ND"
+  },
+  {
+    "name": "Reading",
+    "postcode": "RG1 2EG0"
+  },
+  {
+    "name": "Newport",
+    "postcode": "NP20 3BA"
+  },
+  {
+    "name": "Padstow",
+    "postcode": "PL28 8EL"
+  },
+  {
+    "name": "Leyton",
+    "postcode": "E10 7AA"
+  },
+  {
+    "name": "Godalming",
+    "postcode": "GU8 5HJ"
+  },
+  {
+    "name": "Bicester",
+    "postcode": "OX26 1DE"
+  },
+  {
+    "name": "Basingstoke",
+    "postcode": "RG24 8BE"
+  },
+  {
+    "name": "Wokingham",
+    "postcode": "RG40 2NS"
+  },
+  {
+    "name": "Cheltenham",
+    "postcode": "GL51 8JQ"
+  },
+  {
+    "name": "Thurrock",
+    "postcode": "RM20 1TX"
+  },
+  {
+    "name": "Crawley",
+    "postcode": "RH10 1GY"
+  },
+  {
+    "name": "Horsham",
+    "postcode": "RH12 3YU"
+  },
+  {
+    "name": "Peterborough",
+    "postcode": "PE7 8BD"
+  },
+  {
+    "name": "Homerton",
+    "postcode": "E9 6ND"
+  },
+  {
+    "name": "Brixton",
+    "postcode": "SW2 5RS"
+  },
+  {
+    "name": "Dover",
+    "postcode": "CT16 3PS"
+  },
+  {
+    "name": "Warwick",
+    "postcode": "CV34 5QJ"
+  },
+  {
+    "name": "York",
+    "postcode": "YO30 4XZ"
+  },
+  {
+    "name": "Nottingham",
+    "postcode": "NG5 9DD"
+  },
+  {
+    "name": "Barnstaple",
+    "postcode": "EX32 8PG"
+  },
+  {
+    "name": "Beckenham",
+    "postcode": "BR3 4AA"
+  },
+  {
+    "name": "Bournemouth",
+    "postcode": "BH7 7DY"
+  },
+  {
+    "name": "Basildon",
+    "postcode": "SS13 3JU"
+  },
+  {
+    "name": "Ely",
+    "postcode": "CB7 4DJ"
+  },
+  {
+    "name": "Hertford",
+    "postcode": "SG14 1QA"
+  },
+  {
+    "name": "Slough",
+    "postcode": "SL3 7HR"
+  },
+  {
+    "name": "Newbury",
+    "postcode": "RG14 2BP"
+  },
+  {
+    "name": "Launceston",
+    "postcode": "PL15 9HG"
+  },
+  {
+    "name": "Lincoln",
+    "postcode": "LN2 4QQ"
+  },
+  {
+    "name": "New_Malden",
+    "postcode": "KT3 4PJ"
+  }
+]

@@ -1,0 +1,196 @@
+/* ------- global.css -------*/
+
+
+/* ------- Core styles-------*/
+html {
+  height: auto;
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0 0 0 0;
+  font-family: 'DM Sans', sans-serif;
+  font-feature-settings: 'tnum';
+  background-color: #fdfdfc;
+}
+
+#app {
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #17252a;
+  flex: 1 0 auto;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex: 0 0 auto;
+  box-shadow: 0 1px 0 rgba(0,0,0,.1);
+  position: relative;
+}
+
+.header__container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header__logo {
+  padding: 20px 20px;
+}
+
+.heading {
+  color: #17252a;
+  display: block;
+  font-family: "Labil Grotesk Black", "DM Sans", sans-serif;
+  letter-spacing: -0.04em;
+  margin: 0 auto;
+  max-width: 710px;
+  width: 100%;
+  text-align: center;
+}
+
+h1.heading {
+  font-size: 60px;
+}
+
+h2.heading {
+  font-size: 40px;
+}
+/* ------- End of Core styles-------*/
+
+/* ------- StoreFinder styles-------*/
+.store-finder__container {
+  flex: 1 0 auto;
+  padding: 10px 20px;
+  background-color: #def2f1;
+}
+/* ------- End of StoreFinder styles-------*/
+
+/* ------- SearchForm styles -------*/
+.search-form__section {
+  margin: 0 auto 77px auto;
+  max-width: 426px;
+}
+
+.search-form__heading {
+  margin: 165px 0 77px;
+}
+
+.search-form__label {
+  color: #17252a;
+  font-size: 16px;
+  padding: 0 0 14px 0;
+  display: block;
+  position: relative;
+  text-align: left;
+}
+
+.search-form__input {
+  border: 1px solid #c7e8ee;
+  border-radius: 4px;
+  color: #17252a;
+  padding: 9px 11px;
+  font-size: 18px;
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  line-height: 1.5715;
+  transition: all 0.3s;
+}
+
+.search-form__container--item {
+  margin-bottom: 28px;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  line-height: 1.5715;
+  vertical-align: top;
+}
+
+search-form__container--btn {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.search-form__btn--primary {
+  position: relative;
+  display: inline-block;
+  height: 40px;
+  padding: 8px 24px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 4px;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.12);
+  box-shadow: 0 2px 0 rgba(0,0,0,.05);
+  background-color: #3aafa9;
+  border: 0;
+  color: #17252a;
+  width: 100%;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  font-family: inherit;
+}
+
+.search-form__btn--primary:hover,
+.search-form__btn-primary:focus {
+  background-color: #2b7a78 ;
+  border-color: #2b7a78 ;
+  color: #fdfdfc;
+}
+/* ------- End of SearchForm styles -------*/
+
+/* ------- SearchResults styles -------*/
+.search-results__section {
+  padding-bottom: 154px;
+}
+
+.search-results__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto -20px;
+  max-width: 708px;
+}
+
+.search-results__heading {
+  margin: 0 0 50px;
+  display: inline-block;
+}
+/* ------- End of SearchResults styles -------*/
+
+/* ------- StoreCard styles -------*/
+.store-card__container {
+  max-width: 196px;
+  align-items: center;
+  background: #fdfdfc;
+  border: 1px solid #c7e8ee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #17252a;
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  font-size: 16px;
+  justify-content: space-between;
+  line-height: 22px;
+  margin: 0 10px 20px 10px;
+  padding: 50px;
+  text-align: center;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.store-card__heading {
+  overflow-wrap: break-word;
+}
+/* ------- End of StoreCard styles -------*/
