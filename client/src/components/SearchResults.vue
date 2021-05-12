@@ -6,22 +6,33 @@
         <p class> Search results for "{{ query }}"</p>
       </div>
       <div class="search-results__container">
-        <StoreCard
+        <AsyncStoreCard
             v-for="(store, i) in stores"
             :key="i"
-            :store="store"/>
+            :store="store"
+        />
       </div>
     </section>
   </div>
 </template>
 
 <script>
-import StoreCard from './StoreCard.vue';
+import { defineAsyncComponent } from 'vue';
+import SearchLoading from './SearchLoading.vue';
+import SearchError from './SearchError.vue';
+
+const AsyncStoreCard = defineAsyncComponent({
+  loader: () => import('./StoreCard.vue' /* webpackChunkName: "StoreCard" */),
+  loading: SearchLoading,
+  delay: 100, // Delay before loading StoreCard component
+  error: SearchError,
+  timeout: 3000 // If async component hasn't loaded in this time, show Error component
+});
 
 export default {
   name: 'SearchResults',
   components: {
-    StoreCard
+    AsyncStoreCard
   },
   props: [
     'stores',
@@ -33,7 +44,7 @@ export default {
     }
   },
   updated() {
-    // Currently only second click takes it to the right place
+    // TODO: fix - currently only second click takes you to results div
     this.scrollToResults();
   },
   methods: {
