@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div ref="results">
     <section class="search-results__section">
       <div class="search-results__heading">
         <h2 class="heading">Your top matches</h2>
@@ -30,6 +30,15 @@ export default {
   data() {
     return {
       store: 'store'
+    }
+  },
+  updated() {
+    // Currently only second click takes it to the right place
+    this.scrollToResults();
+  },
+  methods: {
+    scrollToResults() {
+      this.$refs.results.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'});
     }
   }
 }
