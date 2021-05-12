@@ -26,7 +26,7 @@ const AsyncStoreCard = defineAsyncComponent({
   loading: SearchLoading,
   delay: 100, // Delay before loading StoreCard component
   error: SearchError,
-  timeout: 3000 // If async component hasn't loaded in this time, show Error component
+  timeout: 3000 // If async component hasn't loaded in this time, show SearchError component
 });
 
 export default {
