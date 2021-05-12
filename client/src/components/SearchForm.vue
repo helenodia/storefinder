@@ -38,19 +38,29 @@
       </form>
     </section>
   </div>
-  <SearchResults v-show="isSubmitted"
+  <AsyncSearchResults v-show="isSubmitted"
                  v-bind:stores="stores"
                  v-bind:query="query" />
 </template>
 
 <script>
 import axios from 'axios';
-import SearchResults from './SearchResults.vue';
+import { defineAsyncComponent } from "vue";
+import SearchLoading from "./SearchLoading";
+import SearchError from "./SearchError";
+
+const AsyncSearchResults = defineAsyncComponent({
+  loader: () => import('./SearchResults.vue' /* webpackChunkName: "SearchResults" */),
+  loading: SearchLoading,
+  delay: 100, // Delay before loading SearchResults component
+  error: SearchError,
+  timeout: 3000 // If async component hasn't loaded in this time, show SearchError component
+});
 
 export default {
   name: 'SearchForm',
   components: {
-    SearchResults
+    AsyncSearchResults
   },
   data() {
     return {
